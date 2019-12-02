@@ -1,0 +1,153 @@
+﻿@model IEnumerable<LimitesCreditoDBFirst.Models.LIMITES_CREDITOS_LIC>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IDE_CONTRATO_TERCEIRO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DAT_EXPIRA_LIMITE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DES_OBSERVACAO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QTD_PARCELAS_APROVACAO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VLR_TOTAL_APROVACAO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PER_TAXA_OPERACAO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VLR_TARIFA_OPERACAO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VLR_TOTAL_DESCONTOS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VLR_LIQUIDO_APROVACAO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NUM_PARCELA_INICIAL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDE_MOTIVO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LIS_SITUACAO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NOM_LOGIN_APROVACAO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DAT_APROVACAO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DES_APROVACAO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.STS_LIMITE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DAT_INCLUSAO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NOM_LOGIN_INCLUSAO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NUM_IP_INCLUSAO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DAT_ALTERACAO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NOM_LOGIN_ALTERACAO)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDE_CONTRATO_TERCEIRO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DAT_EXPIRA_LIMITE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DES_OBSERVACAO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.QTD_PARCELAS_APROVACAO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VLR_TOTAL_APROVACAO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PER_TAXA_OPERACAO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VLR_TARIFA_OPERACAO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VLR_TOTAL_DESCONTOS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VLR_LIQUIDO_APROVACAO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NUM_PARCELA_INICIAL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDE_MOTIVO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LIS_SITUACAO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NOM_LOGIN_APROVACAO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DAT_APROVACAO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DES_APROVACAO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.STS_LIMITE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DAT_INCLUSAO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NOM_LOGIN_INCLUSAO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NUM_IP_INCLUSAO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DAT_ALTERACAO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NOM_LOGIN_ALTERACAO)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IDE_LIMITE_CREDITO }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IDE_LIMITE_CREDITO }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IDE_LIMITE_CREDITO })
+        </td>
+    </tr>
+}
+
+</table>

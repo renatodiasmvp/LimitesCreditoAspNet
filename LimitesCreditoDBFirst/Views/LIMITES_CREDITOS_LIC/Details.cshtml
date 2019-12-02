@@ -1,0 +1,186 @@
+﻿@model LimitesCreditoDBFirst.Models.LIMITES_CREDITOS_LIC
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>LIMITES_CREDITOS_LIC</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IDE_CONTRATO_TERCEIRO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDE_CONTRATO_TERCEIRO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DAT_EXPIRA_LIMITE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DAT_EXPIRA_LIMITE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DES_OBSERVACAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DES_OBSERVACAO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QTD_PARCELAS_APROVACAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QTD_PARCELAS_APROVACAO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VLR_TOTAL_APROVACAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VLR_TOTAL_APROVACAO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PER_TAXA_OPERACAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PER_TAXA_OPERACAO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VLR_TARIFA_OPERACAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VLR_TARIFA_OPERACAO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VLR_TOTAL_DESCONTOS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VLR_TOTAL_DESCONTOS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VLR_LIQUIDO_APROVACAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VLR_LIQUIDO_APROVACAO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NUM_PARCELA_INICIAL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NUM_PARCELA_INICIAL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDE_MOTIVO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDE_MOTIVO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LIS_SITUACAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LIS_SITUACAO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NOM_LOGIN_APROVACAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NOM_LOGIN_APROVACAO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DAT_APROVACAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DAT_APROVACAO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DES_APROVACAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DES_APROVACAO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.STS_LIMITE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.STS_LIMITE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DAT_INCLUSAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DAT_INCLUSAO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NOM_LOGIN_INCLUSAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NOM_LOGIN_INCLUSAO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NUM_IP_INCLUSAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NUM_IP_INCLUSAO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DAT_ALTERACAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DAT_ALTERACAO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NOM_LOGIN_ALTERACAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NOM_LOGIN_ALTERACAO)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IDE_LIMITE_CREDITO }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

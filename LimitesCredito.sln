@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimitesCredito", "LimitesCredito\LimitesCredito.csproj", "{99CBF613-863F-40F5-B034-D625B2B18CD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimitesCreditoDBFirst", "LimitesCreditoDBFirst\LimitesCreditoDBFirst.csproj", "{123C41C5-232C-4E54-A2F8-15211AD43AE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{99CBF613-863F-40F5-B034-D625B2B18CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99CBF613-863F-40F5-B034-D625B2B18CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99CBF613-863F-40F5-B034-D625B2B18CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123C41C5-232C-4E54-A2F8-15211AD43AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123C41C5-232C-4E54-A2F8-15211AD43AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123C41C5-232C-4E54-A2F8-15211AD43AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123C41C5-232C-4E54-A2F8-15211AD43AE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
